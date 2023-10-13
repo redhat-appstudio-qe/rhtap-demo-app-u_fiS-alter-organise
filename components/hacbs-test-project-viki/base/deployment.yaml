@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-viki
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/rhtap-demo-bpzd-tenant/rhtap-demo-app/hacbs-test-project-viki@sha256:9840954948ee791b88d781014f22f0da202ee343015316dc3e0c569cfe908e0f
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-bpzd-tenant/rhtap-demo-app/hacbs-test-project-viki@sha256:9c4b8e6f3e25d22a1a60d7993a7f00d365ef947cf71819b1ff854c228d0157b2
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
